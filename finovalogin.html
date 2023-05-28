@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finova</title>
+    <link rel="shortcut icon" href="img/finovaicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="finovalogin.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <img src="img/wave.png" alt="wave.png" class="wave">
+    <div class="container">
+        <div class="img">
+            <img src="img/finovalogo.png" alt="finovalogo.png">
+        </div>
+        <div class="login-container">  
+            <img id="name" src="img/name.png" alt="name.png">    
+                <div class="buttonsForm">
+                    <div class="btnColor"></div>
+                    <button id="btnSignin">Entrar</button>
+                    <button id="btnSignup">Cadastrar</button>
+                </div>
+            <form id="signin">
+                <div class="input-div one">
+                    <div class="i">
+                        <i class='bx bxs-user'></i>
+                    </div>
+                    <div>
+                        <h5>Usuário</h5>
+                        <input class="input" type="text" required>
+                    </div>
+                </div>
+                <div class="input-div two">
+                    <div class="i">
+                        <i class='bx bxs-lock'></i>
+                    </div>
+                    <div>
+                        <h5>Senha</h5>
+                        <input type="text" class="input" required>
+                    </div>
+                </div>
+                <div class="divCheck">
+                    <input type="checkbox">
+                    <span>Lembrar Senha</span>
+                </div>
+                <input type="submit" class="btn" value="Entrar">
+            </form>
+
+            <form id="signup">
+                <div class="input-div one">
+                    <div class="i">
+                        <i class='bx bxs-user'></i>
+                    </div>
+                    <div>
+                        <h5>Usuário</h5>
+                        <input class="input" type="text" required>
+                    </div>
+                </div>
+                <div class="input-div two">
+                    <div class="i">
+                        <i class='bx bxs-lock'></i>
+                    </div>
+                    <div>
+                        <h5>Senha</h5>
+                        <input type="text" class="input" required>
+                    </div>
+                </div>
+                <div class="input-div two">
+                    <div class="i">
+                        <i class='bx bxs-lock'></i>
+                    </div>
+                    <div>
+                        <h5>Corfirmar Senha</h5>
+                        <input type="text" class="input" required>
+                    </div>
+                </div>
+                <div class="divCheck">
+                    <input type="checkbox">
+                    <span>Aceito todos os Termos</span>
+                </div>
+                <input type="submit" class="btn2" value="Cadastrar">  
+            </form>
+        </div>
+    </div>
+
+    <script src="finovalogin.js"></script>
+
+</body>
+</html>
