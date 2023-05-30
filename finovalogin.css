@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -177,7 +178,6 @@ form {
     background: none;
     padding: 0.5rem 0.7rem;
     font-size: 1.2rem;
-    font-family: 'Poppins', sans-serif;
     color: #555;
 }
 
@@ -204,38 +204,35 @@ form {
     left: 450px;
 }
 
+
 .btn {
-    display: block;
+    display: grid;
     width: 100%;
     height: 50px;
     border-radius: 25px;
     margin: 3rem 0;
     font-size: 1.2rem;
-    outline: none;
-    border: none;
     background-image: linear-gradient(to right, #22344c, #516d83, #9db3c0);
     cursor: pointer;
-    color: #ffffff;
+    color: #dee7ee;
+    align-items: center;
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
     background-size: 200%;
     transition: .5s;
 }
 
 .btn2 {
-    display: block;
+    display: grid;
     width: 100%;
     height: 50px;
     border-radius: 25px;
     margin: 1rem 0;
     font-size: 1.2rem;
-    outline: none;
-    border: none;
     background-image: linear-gradient(to right, #22344c, #516d83, #9db3c0);
     cursor: pointer;
-    color: #ffffff;
+    color: #dee7ee;
+    align-items: center;
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
     background-size: 200%;
     transition: .5s;
 }

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="finovadashboard.css" />
+    <title>Finova</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="img/finovaicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img src="img/nav.png" alt="nav.png"></div>
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="" class="active">Dashboard</a></li>
+          <li>
+            <a href="">Cartões</a>
+          </li>
+          <li>
+            <a href="finovalogin.html" id="logout">Sair <i class='bx bx-log-out'></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="sidebar">
+      <div class="btn-expandir">
+        <i id="menu" class='bx bx-menu'></i>
+      </div>
+      <ul>
+        <li class="item-menu">
+          <a href="#">
+            <span class="icon"><i class='bx bxs-home'></i></span>
+            <span class="txt-link" id="h">Home</span>
+          </a>
+        </li>
+        <li class="item-menu">
+          <a href="#">
+            <span class="icon"><i class='bx bxs-dashboard'></i></span>
+            <span class="txt-link">Dashboard</span>
+          </a>
+        </li>
+        <li class="item-menu">
+          <a href="#">
+            <span class="icon"><i class='bx bxs-credit-card'></i></span>
+            <span class="txt-link">Cartões</span>
+          </a>
+        </li>
+        <li class="item-menu">
+          <a href="finovalogin.html">
+            <span class="icon" id="s"><i class='bx bx-log-out'></i></span>
+            <span class="txt-link" >Sair</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="inc-exp-container">
+        <div>
+          <h4>Receitas <i class='bx bx-trending-up'></i></h4>
+          <p id="money-plus" class="money plus">+ R$0.00</p>
+        </div>
+
+        <div>
+          <h4>Despesas <i class='bx bx-trending-down'></i></h4>
+          <p id="money-minus" class="money minus">- R$0.00</p>
+        </div>
+
+        <div>
+          <h4>Saldo atual <i class='bx bx-dollar'></i></h4>
+          <h1 id="balance" class="balance">R$ 0.00</h1>
+        </div>
+      </div>
+
+      <h3>Transações</h3>
+      
+      <ul id="transactions" class="transactions">
+        <li class="minus">
+          Salário <span>-$400</span><button class="delete-btn">x</button>
+        </li> 
+      </ul>
+
+      <h3>Adicionar transação</h3>
+      
+      <form id="form">
+        <div class="form-control">
+          <label for="text">Nome</label>
+          <input autofocus type="text" id="text" placeholder="Nome da transação" />
+        </div>
+
+        <div class="form-control">
+          <label for="amount">Valor <br />
+            <small>(negativo - despesas, positivo - receitas)</small>
+          </label>
+          <input type="number" id="amount" placeholder="Valor da transação" />
+        </div>
+
+        <button class="btn">Adicionar</button>
+      </form>
+    </div>
+
+    <script src="finovadashboard.js"></script>
+  </body>
+</html>
