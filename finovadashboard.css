@@ -294,3 +294,12 @@ input[type='number'] {
     margin-left: 30px;
   }
 }
+
+@media (max-width: 543px) {
+  .container{
+    margin-left: 80px;
+  }
+  .inc-exp-container i {
+    display: none;
+  }
+}
