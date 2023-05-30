@@ -303,3 +303,28 @@ input[type='number'] {
     display: none;
   }
 }
+
+@media (max-width: 451px) {
+  .container{
+    margin-left: 60px;
+  }
+  .inc-exp-container #money-plus, #money-minus, #balance {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 419px) {
+  .container{
+    margin-left: 55px;
+  }
+  .inc-exp-container #money-plus, #money-minus, #balance {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 391px) {
+  .inc-exp-container #money-plus, #money-minus, #balance {
+    font-size: 16px;
+  }
+}
+
