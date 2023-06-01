@@ -86,8 +86,7 @@ header {
 .card{
   border-radius: 25px;
   background-color: #9db3c0;
-}
-
+  }
 
 .image-content,
 .card-content {
@@ -216,15 +215,6 @@ header {
   flex-flow: column;
   margin-top: 10px;
   padding-bottom: 0px; 
-}
-
-.fechar i {
-  position: fixed;
-  right: 410px;
-  top: 170px;
-  font-size: 35px;
-  color: #516d83;
-  cursor: pointer;
 }
 
 .credit form {
@@ -503,7 +493,7 @@ header {
   }
   
   
-  @media (max-width: 391px) {
+  @media (max-width: 416px) {
     .slide-container h1 {
       font-size: 36px;
     }
