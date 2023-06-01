@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Finova</title>
+        <link rel="stylesheet" href="swiper-bundle.min.css">
+        <link rel="stylesheet" href="finovacartoes.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="shortcut icon" href="img/finovaicon.png" type="image/x-icon">                                
+    </head>
+    <body>
+        <header>
+            <div class="logo"><img src="img/nav.png" alt="nav.png"></div>
+            <nav class="nav-bar">
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="finovadashboard.html">Dashboard</a></li>
+                <li>
+                  <a href="finovacartoes.html" class="active">Cartões</a>
+                </li>
+                <li>
+                  <a href="finovalogin.html" id="logout">Sair <i class='bx bx-log-out'></i></a>
+                </li>
+              </ul>
+            </nav>
+          </header>
+          <div class="sidebar">
+            <div class="btn-expandir">
+              <i id="menu" class='bx bx-menu'></i>
+            </div>
+            <ul>
+              <li class="item-menu">
+                <a href="#">
+                  <span class="icon"><i class='bx bxs-home'></i></span>
+                  <span class="txt-link" id="h">Home</span>
+                </a>
+              </li>
+              <li class="item-menu">
+                <a href="finovadashboard.html">
+                  <span class="icon"><i class='bx bxs-dashboard'></i></span>
+                  <span class="txt-link">Dashboard</span>
+                </a>
+              </li>
+              <li class="item-menu" id="c">
+                <a href="finovacartoes.html">
+                  <span class="icon" id="c"><i class='bx bxs-credit-card'></i></span>
+                  <span class="txt-link" id="c">Cartões</span>
+                </a>
+              </li>
+              <li class="item-menu">
+                <a href="finovalogin.html">
+                  <span class="icon" id="s"><i class='bx bx-log-out'></i></span>
+                  <span class="txt-link" >Sair</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+            <div class="slide-container swiper">
+                <h1>Meus Cartões</h1>
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <video src="#" poster="img/card.PNG" muted class="card-image"></video>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Cartão não cadastrado</h2>
+                                <p class="description">Cadastre seu Cartão para ter Despesas Adicionadas automaticamente, assim tendo um melhor controle Financeiro!!</p>
+
+                                <button onclick="abrirModal()" class="button">Cadastrar <i class='bx bxs-credit-card-front'></i></button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <video src="#" poster="img/card.PNG" muted class="card-image"></video>
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">Cartão não cadastrado</h2>
+                                <p class="description">Cadastre seu Cartão para ter Despesas Adicionadas automaticamente, assim tendo um melhor controle Financeiro!!</p>
+
+                                <button onclick="abrirModal()" class="button">Cadastrar <i class='bx bxs-credit-card-front'></i></button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <video src="#" poster="img/card.PNG" muted class="card-image"></video>
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">Cartão não cadastrado</h2>
+                                <p class="description">Cadastre seu Cartão para ter Despesas Adicionadas automaticamente, assim tendo um melhor controle Financeiro!!</p>
+
+                                <button onclick="abrirModal()" class="button">Cadastrar <i class='bx bxs-credit-card-front'></i></button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <video src="#" poster="img/card.PNG" muted class="card-image"></video>
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">Cartão não cadastrado</h2>
+                                <p class="description">Cadastre seu Cartão para ter Despesas Adicionadas automaticamente, assim tendo um melhor controle Financeiro!!</p>
+
+                                <button onclick="abrirModal()" class="button">Cadastrar <i class='bx bxs-credit-card-front'></i></button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <video src="#" poster="img/card.PNG" muted class="card-image"></video>
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">Cartão não cadastrado</h2>
+                                <p class="description">Cadastre seu Cartão para ter Despesas Adicionadas automaticamente, assim tendo um melhor controle Financeiro!!</p>
+
+                                <button onclick="abrirModal()" class="button">Cadastrar <i class='bx bxs-credit-card-front'></i></button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <video src="#" poster="img/card.PNG" muted class="card-image"></video>
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">Cartão não cadastrado</h2>
+                                <p class="description">Cadastre seu Cartão para ter Despesas Adicionadas automaticamente, assim tendo um melhor controle Financeiro!!</p>
+
+                                <button onclick="abrirModal()" class="button">Cadastrar <i class='bx bxs-credit-card-front'></i></button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <video src="#" poster="img/card.PNG" muted class="card-image"></video>
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">Cartão não cadastrado</h2>
+                                <p class="description">Cadastre seu Cartão para ter Despesas Adicionadas automaticamente, assim tendo um melhor controle Financeiro!!</p>
+
+                                <button onclick="abrirModal()" class="button">Cadastrar <i class='bx bxs-credit-card-front'></i></button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <video src="#" poster="img/card.PNG" muted class="card-image"></video>
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">Cartão não cadastrado</h2>
+                                <p class="description">Cadastre seu Cartão para ter Despesas Adicionadas automaticamente, assim tendo um melhor controle Financeiro!!</p>
+
+                                <button onclick="abrirModal()" class="button">Cadastrar <i class='bx bxs-credit-card-front'></i></button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <video src="#" poster="img/card.PNG" muted class="card-image"></video>
+                                </div>
+                            </div>
+    
+                            <div class="card-content">
+                                <h2 class="name">Cartão não cadastrado</h2>
+                                <p class="description">Cadastre seu Cartão para ter Despesas Adicionadas automaticamente, assim tendo um melhor controle Financeiro!!</p>
+
+                                <button onclick="abrirModal()" class="button">Cadastrar <i class='bx bxs-credit-card-front'></i></button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal">
+            <div class="credit">
+                <div class="card-container">
+                    <div class="front">
+                        <div class="image">
+                            <img src="img/chip.png" alt="chip.png">
+                            <img src="img/visa.png" alt="visa.png">
+                        </div>
+                        <div class="card-number-box">#################</div>
+                        <div class="flexbox">
+                            <div class="box">
+                                <span>card holder</span>
+                                <div class="card-holder-name">full name</div>
+                            </div>
+                            <div class="box">
+                                <span>expires</span>
+                                <div class="expiration">
+                                    <span class="exp-month">mm</span>
+                                    <span class="exp-year">yy</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="stripe"></div>
+                        <div class="box">
+                            <span>cvv</span>
+                            <div class="cvv-box"></div>
+                            <img src="img/visa.png" alt="visa.png">
+                        </div>
+                    </div>
+                </div>
+                <form action="">
+                    <div class="inputBox">
+                        <button class="fechar" id="fechar"><i class='bx bxs-x-square'></i></button>
+                        <span>card number</span>
+                        <input type="text" maxlength="16" class="card-number-input">
+                    </div>
+                    <div class="inputBox">
+                        <span>card holder</span>
+                        <input type="text" maxlength="16" class="card-holder-input">
+                    </div>
+                    <div class="flexbox">
+                        <div class="inputBox">
+                            <span>expiration mm</span>
+                            <select name="" id="" class="month-input">
+                                <option value="month" selected disabled></option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                        </div>
+                        <div class="inputBox">
+                            <span>expiration yy</span>
+                            <select name="" id="" class="year-input">
+                                <option value="year" selected disabled></option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                                <option value="2028">2028</option>
+                                <option value="2029">2029</option>
+                                <option value="2030">2030</option>
+                                <option value="2031">2031</option>
+                                <option value="2032">2032</option>
+                                <option value="2033">2033</option>
+                            </select>
+                        </div>
+                        <div class="inputBox">
+                            <span>cvv</span>
+                            <input type="text" maxlength="4" class="cvv-input">
+                        </div>
+                    </div>
+                    <input type="submit" value="submit" class="submit-btn">
+                </form>
+            </div>
+        </div>
+        
+    </body>
+
+    <script src="swiper-bundle.min.js"></script>
+
+    <script src="finovacartoes.js"></script>
+</html>

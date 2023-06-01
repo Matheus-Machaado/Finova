@@ -306,7 +306,7 @@ input[type='number'] {
 
 @media (max-width: 451px) {
   .container{
-    margin-left: 60px;
+    margin-left: 75px;
   }
   .inc-exp-container #money-plus, #money-minus, #balance {
     font-size: 18px;
@@ -314,9 +314,6 @@ input[type='number'] {
 }
 
 @media (max-width: 419px) {
-  .container{
-    margin-left: 55px;
-  }
   .inc-exp-container #money-plus, #money-minus, #balance {
     font-size: 17px;
   }
