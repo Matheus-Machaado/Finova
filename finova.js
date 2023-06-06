@@ -32,3 +32,11 @@ document.querySelector('#btnSignup').addEventListener('click', () => {
     formSignup.style.left = "25px"
     btnColor.style.left = "110px"
 })
+
+var menu = document.querySelector('#menu')
+var side = document.querySelector('.sidebar')
+
+menu.addEventListener('click', function(){
+    side.classList.toggle('expandir')
+})
+
