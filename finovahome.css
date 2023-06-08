@@ -205,7 +205,8 @@ section {
   }
 
   section {
-    min-height: 100vw;
+    padding: 0 3% 0 30px;
+    padding-top: 3.5rem;
   }
 
   .home {
@@ -213,15 +214,22 @@ section {
   }
 
   .home .image img {
-    width: 25vw;
+    width: 29vw;
+    margin-right: 5rem;
+    padding-top: 0;
+    
   }
 
   .home .content h3 {
-    font-size: 3.6rem;
+    font-size: 2.3rem;
+  }
+
+  .home .content span {
+    font-size: 1.3rem;
   }
 
   .home .content p {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
 }
 
