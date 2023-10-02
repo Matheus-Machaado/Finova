@@ -1,2 +1,2 @@
 # Finova-Front-end
-Ultimo Projeto para encerrar o primeiro ano em ADS. Objetivo do Projeto era criar um sistema de controle financeiro Web.
+Nosso último projeto para encerrar o primeiro ano em Análise e Desenvolvimento de Sistemas (ADS) teve como objetivo a criação de um sistema de controle financeiro web.
